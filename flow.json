@@ -1,0 +1,34 @@
+{
+  "networks": {
+    "emulator": "127.0.0.1:3569",
+    "mainnet": "access.mainnet.nodes.onflow.org:9000",
+    "testnet": "access.devnet.nodes.onflow.org:9000"
+  },
+  "accounts": {
+    "emulator-account": {
+      "address": "f8d6e0586b0a20c7",
+      "key": "280cf94be6bd8e054ea64b1b5403370eecfc21d320dc5d4eb84dc325243061aa"
+    },
+    "testnet": {
+      "address": "0x2cd15cc7890127f9",
+      "key": "c39c4b7444304805ba04613fe34a9ee27b0577f4ce12571897c7d460672b2572"
+    }
+  },
+  "contracts": {
+    "ExampleNFT": "flow/cadence/contracts/ExampleNFT.cdc",
+    "NonFungibleToken": {
+      "source": "flow/cadence/contracts/NonFungibleToken.cdc",
+      "aliases": {
+        "testnet": "0x631e88ae7f1d7c20"
+      }
+    }
+  },
+  
+  "deployments": {
+    "testnet": {
+      "testnet": ["ExampleNFT"]
+    }
+  }
+}
+
+
