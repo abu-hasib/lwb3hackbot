@@ -11,7 +11,7 @@
     },
     "testnet": {
       "address": "0x2cd15cc7890127f9",
-      "key": "c39c4b7444304805ba04613fe34a9ee27b0577f4ce12571897c7d460672b2572"
+      "key": "PRIVATE-KEY"
     }
   },
   "contracts": {
