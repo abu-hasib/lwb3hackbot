@@ -37,7 +37,7 @@
 
 2. Navigate to the project's root directory where the `package.json` and `package-lock.json` files are located.
    
-   `cd lwb3app`
+   `cd lwb3hackbot`
    
 3. Install the project dependencies
    
